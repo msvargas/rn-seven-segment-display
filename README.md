@@ -1,12 +1,14 @@
 # React-Native Seven Segment Display
 
-React Native Component to create Seven Segment Display
+React Native Component to create Seven Segment Display with typescript support
 
 ## Install
 `
 yarn add rn-seven-segment-display
 `
+
 or
+
 `
 npm install rn-seven-segment-display
 ` 
@@ -31,4 +33,4 @@ Thanks to [react-seven-segment-display](https://www.npmjs.com/package/react-seve
 See segmentMap from `import {segmentMap} from 'rn-seven-segment-display'`
 
 ## NOTE: 
-Its work on react(web) using react-native-web
+Its work on reactjs using react-native-web
