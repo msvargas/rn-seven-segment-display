@@ -1,13 +1,17 @@
 {
   "name": "rn-seven-segment-display",
   "version": "1.0.0",
+  "author": "Michael Vargas",
+  "description": "React Native Component to create Seven Segment Display",
+  "repository": "https://github.com/punisher97/rn-seven-segment-display.git",
   "main": "/dist/index.js",
   "license": "MIT",
   "types": "/dist",
   "scripts": {
     "tsc": "tsc",
     "clean": "tsc --build --clean",
-    "test": "jest"
+    "test": "jest",
+    "publish:npm": "npm publish --access public"
   },
   "dependencies": {
     "@types/react-native": "^0.60.22",
@@ -22,5 +26,12 @@
     "react-test-renderer": "^16.11.0",
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.4"
-  }
+  },
+  "keywords": [
+    "seven segment display",
+    "7 segmenet display",
+    "digital display",
+    "react segments"
+  ],
+  "readme": "README.md"
 }
