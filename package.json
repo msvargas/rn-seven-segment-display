@@ -1,6 +1,6 @@
 {
   "name": "rn-seven-segment-display",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Michael Vargas",
   "description": "React Native Component to create Seven Segment Display",
   "repository": "https://github.com/punisher97/rn-seven-segment-display.git",
