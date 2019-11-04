@@ -37,9 +37,7 @@ it("number render correctly", () => {
 });
 
 it("bit read all correctly", () => {
-  expect.assertions(2);
-  expect(segmentMap[0]).toBe(0x3f);
-  expect(bitReadAll(segmentMap[0])).toStrictEqual([
+  expect(segmentMap[0]).toStrictEqual([
     false,
     true,
     true,

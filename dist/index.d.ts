@@ -6,10 +6,10 @@ import { ViewStyle } from "react-native";
  *  G	F	E	D	C	B	A
     0	1	1	1	1	1	1
  */
-export declare const segmentMap: {
-    [key: string]: number;
-};
 export declare const bitReadAll: (value: number) => boolean[];
+export declare const segmentMap: {
+    [key: string]: boolean[];
+};
 export declare interface SevenSegmentProps {
     width?: number;
     height?: number;

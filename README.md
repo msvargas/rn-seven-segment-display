@@ -1,4 +1,4 @@
-# React-Native Seven Segment Display
+# React Native [Web] Seven Segment Display
 
 React Native Component to create Seven Segment Display with typescript support
 
@@ -16,15 +16,17 @@ npm install rn-seven-segment-display
 ![display](https://raw.githubusercontent.com/z0h4n/react-seven-segment-display/HEAD/image.png)
 
 ```js
-    <View style={{ flexDirection: "row", backgroundColor: "black", alignSelf : "center" }}>
-      {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "F", "a", "b", "c"].map(value => (
+import SevenSegmentDisplay, { segmentMap } from 'rn-seven-segment-display';
+...
+      <View style={{ flexDirection: "row", backgroundColor: "black", alignSelf : "center" }}>
+      {Object.keys(segmentMap).slice(0,10).map(value => (
         <SevenSegmentDisplay
           key={value}
           value={String(value)}
-          onColor="green"
         />
       ))}
     </View>
+...
 ```
 
 Thanks to [react-seven-segment-display](https://www.npmjs.com/package/react-seven-segment-display)
